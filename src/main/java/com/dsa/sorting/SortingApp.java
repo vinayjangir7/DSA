@@ -1,7 +1,6 @@
 package com.dsa.sorting;
 
-import com.dsa.sorting.advanced.Merge;
-import com.dsa.sorting.advanced.Quick;
+import com.dsa.sorting.basic.Selection;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -13,7 +12,8 @@ public class SortingApp {
         /*int[] arr = {5, 6, 3, 8, 2, 9};*/
         System.out.println(LocalDateTime.now().toLocalTime());
 
-        Quick.sort(arr, 0, arr.length - 1);
+        Selection.sort(arr);
+        /*Quick.sort(arr, 0, arr.length - 1);*/
         System.out.println(LocalDateTime.now().toLocalTime());
         System.out.println(Arrays.toString(arr));
     }

@@ -17,7 +17,7 @@ public class Quick {
 
         for (int j = low; j < high; j++) {
             if (arr[j] < pivot) {
-                // Increment i here to provide a place to put number < pivot
+                // Increment i here to provide a place to put number less than pivot
                 i++;
                 int temp = arr[i];
                 arr[i] = arr[j];

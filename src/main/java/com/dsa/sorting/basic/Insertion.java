@@ -10,6 +10,7 @@ public class Insertion {
                 arr[j + 1] = arr[j];
                 j--;
             }
+            // placement
             arr[j + 1] = key;
         }
     }
